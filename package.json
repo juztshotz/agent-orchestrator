@@ -1,0 +1,10 @@
+{
+  "name": "agent-orchestrator",
+  "version": "1.0.0",
+  "description": "Agent orchestration system for coordinating multiple LLMs. Supports task routing, long-term memory flows, and agent-to-agent communication for complex automation pipelines.",
+  "main": "bin/autoinit.js",
+  "bin": { "autoinit": "./bin/autoinit.js" },
+  "scripts": { "start": "node bin/autoinit.js" },
+  "dependencies": { "axios": "^1.6.2", "inquirer": "^9.2.0" },
+  "license": "MIT"
+}
